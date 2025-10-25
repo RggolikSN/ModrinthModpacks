@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+sitemap: http://rggoliksn.github.io/ModrinthModpacks/sitemap.xml
