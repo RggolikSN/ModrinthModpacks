@@ -1,0 +1,78 @@
+body {
+    margin: auto;
+    background-color: rgb(240, 240, 240);
+    font-variant-numeric: lining-nums;
+    font-feature-settings: "lnum";
+}
+
+
+
+.mbresimg {
+    width: 67.5vh;
+}
+
+.mbresh2 {
+    font-family: "Raleway", sans-serif;
+}
+
+.panelone {
+    background-color: rgb(220, 220, 220);
+    padding: 0.15vh 3vh 0.75vh 3vh;
+    margin: 2vh;
+    position: absolute;
+}
+
+.mbresp {
+    font-family: "Raleway";
+    font-weight: 600;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.dwdj {
+    margin-bottom: 4vh;
+}
+
+.sk2 {
+    margin-bottom: 4vh;
+}
+
+.dwlone {
+    font-family: "Raleway";
+    font-weight: 500;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    text-decoration: none;
+    padding: 2vh;
+    transition: cubic-bezier(.17,.67,.1,.94) 0.4s;
+    box-shadow: 0vh 0vh 1vh rgba(24, 24, 24, 0.2);
+}
+
+.dwlone:hover {
+    background-color: rgb(179, 179, 179);
+    color: rgb(24, 24, 24);
+    box-shadow: 0vh 0vh 1.5vh rgba(24, 24, 24, 0.3);
+}
+
+.foot {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(24, 24, 24);
+    width: 100%;
+}
+
+.footh2 {
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 3vh;
+    margin: 2vh;
+    color: white;
+}
+
+.footh3 {
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 2.5vh;
+    margin: 2vh;
+    color: white;
+}
