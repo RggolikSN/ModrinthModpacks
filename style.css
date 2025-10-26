@@ -29,25 +29,7 @@ body {
     margin-bottom: 4vh;
 }
 
-.panelone {
-    background-color: rgb(220, 220, 220);
-    padding: 0.15vh 3vh 0.75vh 3vh;
-    margin: 2vh;
-}
-
-.paneltwo {
-    background-color: rgb(220, 220, 220);
-    padding: 0.15vh 3vh 0.75vh 3vh;
-    margin: 2vh;
-}
-
-.panelthree {
-    background-color: rgb(220, 220, 220);
-    padding: 0.15vh 3vh 0.75vh 3vh;
-    margin: 2vh; 
-}
-
-.panelfour {
+.panel {
     background-color: rgb(220, 220, 220);
     padding: 0.15vh 3vh 0.75vh 3vh;
     margin: 2vh;
