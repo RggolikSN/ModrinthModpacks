@@ -125,6 +125,11 @@ body {
     color: rgba(0, 0, 0, 0);
 }
 
+.li2 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+}
+
 .rightpan {
     position: fixed;
     right: 0;
@@ -152,4 +157,37 @@ body {
     .rightpan {
         display: none;
     }
+}
+
+.rightpana2 {
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 3.5vh;
+    position: relative;
+    top: 86.5vh;
+    cursor: pointer;
+    color: rgb(24, 24, 24);
+    transition: cubic-bezier(.17,.67,.1,.94) 0.4s;
+    text-shadow: 0vh 0vh 1.5vh rgba(24, 24, 24, 0.2);
+    text-decoration: none;
+}
+
+stop {
+    transition: cubic-bezier(.17,.67,.1,.94) 0.4s;
+}
+
+svg {
+    transition: cubic-bezier(.17,.67,.1,.94) 0.4s;
+    filter: drop-shadow(0vh 0vh 1.5vh rgba(24, 24, 24, 0.3));
+    -webkit-filter: drop-shadow(0vh 0vh 1.5vh rgba(24, 24, 24, 0.3));
+}
+
+svg:hover {
+    filter: drop-shadow(0vh 0vh 2vh rgba(24, 24, 24, 0.4));
+    -webkit-filter: drop-shadow(0vh 0vh 2vh rgba(24, 24, 24, 0.4));
+}
+
+.svgtg:hover {
+  --gradient-1: #4b38c5;
+  --gradient-2: #0f0e3d;
 }
