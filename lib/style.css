@@ -1,0 +1,290 @@
+body {
+    margin: auto;
+    background-color: rgb(240, 240, 240);
+    font-variant-numeric: lining-nums;
+    font-feature-settings: "lnum";
+}
+
+.mbresimg {
+    width: 100%;
+    height: auto;
+}
+
+.mbresh2 {
+    font-family: "Raleway", sans-serif;
+}
+
+.mbresp {
+    font-family: "Raleway";
+    font-weight: 600;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.dwdj {
+    margin-bottom: 2.5vh;
+}
+
+.sk2 {
+    margin-bottom: 4vh;
+}
+
+.panel {
+    background-color: rgb(220, 220, 220);
+    padding: 0.15vh 3vh 0.75vh 3vh;
+    margin: 2vh;
+}
+
+.dwlone {
+    font-family: "Raleway";
+    font-weight: 500;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    text-decoration: none;
+    padding: 2vh;
+    transition: cubic-bezier(.17,.67,.1,.94) 0.4s;
+    box-shadow: 0vh 0vh 1vh rgba(24, 24, 24, 0.2);
+}
+
+.dwlonenone {
+    font-family: "Raleway";
+    font-weight: 500;
+    background-color: rgba(24, 24, 24, 0.75);
+    color: white;
+    text-decoration: none;
+    padding: 2vh;
+    transition: cubic-bezier(.17,.67,.1,.94) 0.4s;
+    box-shadow: 0vh 0vh 1vh rgba(24, 24, 24, 0.2);
+    cursor: not-allowed;
+}
+
+.dwlone:hover {
+    background-color: rgb(179, 179, 179);
+    color: rgb(24, 24, 24);
+    box-shadow: 0vh 0vh 1.5vh rgba(24, 24, 24, 0.3);
+}
+
+.foot {
+    position: absolute;
+    bottom: auto;
+    background-color: rgb(24, 24, 24);
+    width: 100%;
+}
+
+.footh2 {
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 3vh;
+    margin: 2vh;
+    color: white;
+}
+
+.footh3 {
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 2.5vh;
+    margin: 2vh;
+    color: white;
+
+}
+
+.footh4 {
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 1.5vh;
+    margin: 2vh;
+    color: white;
+}
+
+.rightpana1 {
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 3.5vh;
+    position: relative;
+    top: 3vh;
+    cursor: pointer;
+    color: rgb(24, 24, 24);
+    transition: cubic-bezier(.17,.67,.1,.94) 0.4s;
+    text-shadow: 0vh 0vh 1.5vh rgba(24, 24, 24, 0.2);
+    text-decoration: none;
+    z-index: 228;
+}
+
+.rightpana1:hover {
+    color: rgb(49, 49, 49);
+    text-shadow: 0vh 0vh 2.5vh rgba(24, 24, 24, 0.3);
+}
+
+.li1 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    z-index: 228;
+    padding-bottom: 0.5vh;
+}
+
+.li0ots {
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    z-index: 228;
+    height: 5vh;
+}
+
+.li2 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    z-index: 228;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+}
+
+.li3 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    z-index: 228;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+}
+
+.li4 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    z-index: 228;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+}
+
+.rightpan {
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: rgb(240, 240, 240);
+    width: 13.5%;
+    height: 100%;
+    left: auto;
+}
+
+.main {
+    width: 86.5%;
+    margin-right: 700px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+}
+
+@media (max-width: 768px) {
+    .main {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 1400px) {
+    .rightpan {
+        display: none;
+    }
+}
+
+.rightpana2 {
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 3.5vh;
+    position: relative;
+    top: 86.5vh;
+    cursor: pointer;
+    color: rgb(24, 24, 24);
+    transition: cubic-bezier(.17,.67,.1,.94) 0.4s;
+    text-shadow: 0vh 0vh 1.5vh rgba(24, 24, 24, 0.2);
+    text-decoration: none;
+}
+
+stop {
+    transition: cubic-bezier(.17,.67,.1,.94) 0.4s;
+}
+
+svg {
+    transition: cubic-bezier(.17,.67,.1,.94) 0.4s;
+    filter: drop-shadow(0vh 0vh 1.5vh rgba(24, 24, 24, 0.3));
+    -webkit-filter: drop-shadow(0vh 0vh 1.5vh rgba(24, 24, 24, 0.3));
+}
+
+svg:hover {
+    filter: drop-shadow(0vh 0vh 2vh rgba(24, 24, 24, 0.4));
+    -webkit-filter: drop-shadow(0vh 0vh 2vh rgba(24, 24, 24, 0.4));
+}
+
+.svgtg:hover {
+  --gradient-1: #4b38c5;
+  --gradient-2: #0f0e3d;
+}
+
+.hdr {
+    position: sticky;
+    top: 20px;
+    margin: 1.5vh 3vh;
+    font-size: 0;
+    z-index: 224;
+}
+
+.ft {   
+    display: inline-block;
+    height: 3vh;
+}
+
+.hrdtext {
+    backdrop-filter: blur(10px);
+    padding: 1vh 3vh;
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 2vh;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 5vh 0vh 0vh 5vh;
+    cursor: pointer;
+    text-shadow: 0vh 0vh 1.5vh rgba(24, 24, 24, 0.2);
+    box-shadow: 0vh 0vh 1.5vh rgba(24, 24, 24, 0.2);
+    transition: cubic-bezier(.17,.67,.1,.94) 0.4s;
+}
+
+.fr {
+    display: inline-block;
+}
+
+.byc {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1vh 3vh;
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 2vh;
+    border: none;
+    border-radius: 0vh 5vh 5vh 0vh;
+    text-shadow: 0vh 0vh 1.5vh rgba(24, 24, 24, 0.2);
+    box-shadow: 0vh 0vh 1.5vh rgba(24, 24, 24, 0.2);
+    transition: cubic-bezier(.17,.67,.1,.94) 0.4s;
+    display: inline-block;
+    cursor: pointer;
+    transition: cubic-bezier(.17,.67,.1,.94) 0.4s;
+}
+
+.f1 {
+    margin-left: auto;
+}
+
+.hrdtext:hover, .byc:hover {
+    background-color: rgba(216, 255, 255, 0.2);
+    text-shadow: 0vh 0vh 3vh rgba(24, 24, 24, 0.3);
+    box-shadow: 0vh 0vh 3vh rgba(24, 24, 24, 0.3);
+}
+
+.tagsp {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: "Raleway";
+    display: inline-block;
+    position: relative;
+    width: 12vh;
+    padding: 1vh 2vh;
+}
+
+.tags {
+    backdrop-filter: blur(10px);
+    font-family: "Raleway";
+}
