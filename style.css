@@ -133,8 +133,6 @@ body {
     text-align: center;
     color: rgba(0, 0, 0, 0);
     z-index: 228;
-    padding-top: 0.5vh;
-    padding-bottom: 0.5vh;
 }
 
 .li3 {
@@ -187,7 +185,7 @@ body {
     font-weight: 500;
     font-size: 3.5vh;
     position: relative;
-    top: 86.5vh;
+    top: 72.5vh;
     cursor: pointer;
     color: rgb(24, 24, 24);
     transition: cubic-bezier(.17,.67,.1,.94) 0.4s;
